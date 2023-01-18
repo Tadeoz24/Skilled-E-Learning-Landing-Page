@@ -172,6 +172,8 @@ footer button {
   background: #13183f;
   border-radius: 28px;
 
+  cursor: pointer;
+
   font-family: "Plus Jakarta Sans";
   font-style: normal;
   font-weight: 700;
@@ -185,6 +187,26 @@ footer button {
 
   color: #ffffff;
 }
+
+header button:hover {
+  background: #666ca3;
+}
+
+footer button:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+}
+
+/* first_page */ /* first_page */
+/* first_page */ /* first_page */
+/* first_page */ /* first_page */
+/* first_page */ /* first_page */
+/* first_page */ /* first_page */
+/* first_page */ /* first_page */
 
 .first_page {
   width: 100%;
@@ -234,6 +256,8 @@ footer button {
   background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
   border-radius: 31.5px;
 
+  cursor: pointer;
+
   font-family: "Plus Jakarta Sans";
   font-style: normal;
   font-weight: 700;
@@ -244,6 +268,15 @@ footer button {
   /* FFFFFF */
 
   color: #ffffff;
+}
+
+.first_page_text button:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
 }
 
 .first_page_img {
@@ -379,6 +412,10 @@ footer button {
   text-decoration: none;
   position: absolute;
   bottom: 0;
+}
+
+.item-x-inner a:hover {
+  color: #ffa7c3;
 }
 
 footer {
