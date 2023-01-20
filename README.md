@@ -1,6 +1,6 @@
 ### Screenshot
 
-![](./images/Screenshot.png)
+![](./assets/Screenshot%202023-01-20%20at%2014.20.10.png)
 
 # Frontend Mentor - Skilled E-Learning Landing Page
 
